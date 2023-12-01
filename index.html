@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Playpen+Sans:wght@100&family=Roboto+Slab&display=swap"
+    rel="stylesheet">
+  <!-- FIM GOOGLE FONTES -->
+  <!-- BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- FIM BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="caro.css">
+  <script src="carrosel.js" defer></script>
+  <script src="menu.js" defer></script>
+
+  <title>Gabriel Werneck</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="interface">
+      <div class="logo">
+        <a href="#">
+          <img src="images/logoo.png" alt="Logo da Agência BRN" width="80px">
+        </a>
+      </div>
+      <!--logo-->
+
+      <nav class="menu-desktop">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#indicacoes">Indicações</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+      </nav>
+
+      <div class="btn-contato">
+        <a href="#">
+          <button>Contato</button>
+        </a>
+      </div>
+      <!--btn-contato-->
+
+      <div class="btn-abrir-menu" id="btn-menu">
+        <i class="bi bi-list"></i>
+      </div>
+
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar">
+          <i class="bi bi-x-lg"></i>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#indicacoes">Indicações</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#avaliacoes">Avaliações</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+          </ul>
+        </nav>
+
+      </div>
+      <!--menu-mobile-->
+      <div class="overlay-menu" id="overlay-menu"></div>
+    </div>
+    <!--interface-->
+  </header>
+
+  <main>
+    <section class="topo-do-site" id="inicio">
+      <div class="interface">
+        <div class="flex">
+          <div class="txt-topo-site">
+            <h1>GABRIEL WERNECK<span>.</span></h1>
+            <h2>ACUPULTURA BIOENERGÉTICA</h2>
+            <H2>PSICÓLOGO</H2>
+            <!-- <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante, funcionalidade intuitiva e otimização para resultados, estou pronto(a) para criar a presença online dos seus sonhos.</p> -->
+
+            <div class="btn-contato">
+              <a
+                href="https://api.whatsapp.com/send?phone=5521993373279&text=Olá+Gabriel%2C+tudo+bem%3F%0AGostaria+de+mais+informações+sobre+o+serviço+de+Acupuntura.">
+                <button>Entre em contato</button>
+              </a>
+            </div>
+          </div>
+          <!--txt-topo-site-->
+
+          <div class="img-topo-site">
+            <img src="images/gabriel.png" alt="" width="650px">
+          </div>
+          <!--img-topo-site-->
+        </div>
+        <!--flex-->
+      </div>
+      <!--interface-->
+    </section>
+    <!--topo-do-site-->
+
+    <section class="especiliadades" id="servicos">
+      <div class="interface">
+        <h2 class="titulo"><span>SERVIÇOS</span></h2>
+        <div class="flex">
+          <div class="especialidades-box">
+            <img src="images/serv01.jpg" alt="" width="280px">
+            <h3>Acupuntura</h3>
+            <p>A acupuntura é um recurso terapêutico que utiliza agulhas específicas
+              visando estimular determinados pontos pelo corpo, para promoção,
+              manutenção e recuperação da saúde</p>
+          </div>
+          <!--especialidades-box-->
+
+          <div class="especialidades-box">
+            <img id="serv02" src="images/serv02.png" alt="" width="280px">
+            <h3>Acupuntura Hinaishin</h3>
+            <p>Inserção de micro agulhas em pontos específicos da pele
+              com foco no tratamento da dor e regulação emocional.
+              A agulha fica no corpo do paciente entre 3 e 5 dias.</p>
+          </div>
+          <!--especialidades-box-->
+
+          <div class="especialidades-box">
+            <img src="images/serv03.jpg" alt="" width="280px">
+            <h3>Reeducação postural</h3>
+            <p>É uma técnica japonesa de reeducação neuromuscular e
+              postural integral, através de exercícios físicos de contração
+              e relaxamento. É indicado para pessoas que desenvolvem dores crônicas ou agudas.</p>
+          </div>
+          <!--especialidades-box-->
+        </div>
+        <!--flex-->
+      </div>
+      <!--interface-->
+    </section>
+    <!-- especiliadades-->
+    <section class="indicacoes" id="indicacoes">
+      <h2 class="titulo"><span>INDICAÇÕES</span></h2>
+      <main>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/ansiedade.png" alt="Foto 01">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes//enxaqueca.png" alt="Foto 02">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/gastrite.png" alt="Foto 03">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/Bruxismo.png" alt="Foto 04">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/Insonia.png" alt="Foto 05">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/Constipação.png" alt="Foto 06">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/Dermatologia.png" alt="Foto 07">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/transtornoalimentar.png" alt="Foto 08">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/crisedepanico.png" alt="Foto 09">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/Fertilidade.png" alt="Foto 10">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/dorcronica.png" alt="Foto 11">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/Ginecologia.png" alt="Foto 12">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/Cansaço.png" alt="Foto 13">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/Edemas.png" alt="Foto 14">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/Tabagismo.png" alt="Foto 15">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./images/./indicacoes/quedadecabelo.png" alt="Foto 16">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </main>
+      <!-- <div class="interface">
+        <h2 class="titulo"><span>INDICAÇÕES</span></h2>
+
+        <div class="row">
+          <div class="column">
+            <img src="images/indicacoes/indica-01.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-02.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-03.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-04.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-05.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-06.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-07.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-08.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-09.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-10.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-11.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-12.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-13.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-14.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-15.jpg" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/indicacoes/indica-15.jpg" alt="Mountains" style="width:100%">
+          </div>
+        </div>
+      </div> -->
+    </section>
+    <section class="sobre" id="sobre">
+      <div class="interface">
+        <h2 class="titulo"><span>SOBRE</span></h2>
+        <div class="flex">
+          <div class="img-sobre">
+            <img src="images/werneck.png" alt="" width="500px">
+          </div>
+          <!--img-sobre -->
+
+          <div class="txt-sobre">
+            <h2>MUITO PRAZER, <span>SOU GABRIEL WERNECK.</span></h2>
+            <p>Conheça Gabriel, o profissional que está transformando vidas por meio da acupuntura e da psicologia. Além
+              de acupunturista, também é psicólogo, trazendo uma abordagem única e holística para o seu bem-estar.Ele
+              acredita que cada indivíduo é único e requer uma abordagem personalizada para alcançar o equilíbrio físico
+              e emocional.Com sua formação em psicologia, aproveita seus conhecimentos da mente humana com as técnicas
+              milenares da acupuntura, oferecendo um tratamento integrativo e humanizado.</p>
+            <p>No consultório de Gabriel, você encontrará um espaço acolhedor e seguro, onde poderá realizar sua
+              consulta e iniciar uma jornada de cura e autoconhecimento. Seja para aliviar dores físicas, gerenciar o
+              estresse ou melhorar sua qualidade de vida. Gabriel está pronto para guiá-lo em direção ao equilíbrio e à
+              saúde integral. Descubra o tratamento eficaz e humanizado que Gabriel oferece e permita-se viver uma vida
+              plena e saudável. Agende sua consulta agora mesmo e dê o primeiro passo em direção ao seu bem-estar.</p>
+            <div class="btn-social">
+              <a href="https://www.instagram.com/gabriel_acupuntura/" target="_blank"><button><i
+                    class="bi bi-instagram"></i></button></a>
+
+              <a href="https://api.whatsapp.com/send?phone=5521993373279&text=Ol%C3%A1%2C+estava+no+seu+site+e+gostaria+de+ter+mais+informa%C3%A7%C3%B5es+sobre+o+servi%C3%A7o+de+acupuntura."
+                target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+            </div>
+            <!--btn-social-->
+          </div>
+          <!--txt-sobre-->
+        </div>
+        <!--flex-->
+      </div>
+      <!--interface-->
+    </section>
+    <!--sobre-->
+
+    <section class="portfolio" id="avaliacoes">
+      <div class="interface">
+        <h2 class="titulo"><span>DEPOIMENTOS</span></h2>
+        <div class="flex">
+          <div class="img-port" style="background-image: url(images/depoimento01.jpg);">
+            <div class="overlay">"Queria dizer que amei muito o trabalho com a acupuntura!
+              Eu era totalmente cética, além de não conhecer muito, o pouco que ouvia falar não acreditava"</div>
+          </div>
+          <div class="img-port" style="background-image: url(images/depoimento02.jpg);">
+            <div class="overlay">"A acupuntura está sendo incrível pra mim. Confesso que nunca
+              estive tão bem. Foi como uma nova possibilidade que se abriu e eu resolvi abraçar."</div>
+          </div>
+          <div class="img-port" style="background-image: url(images/Depoimento3.jpg);">
+            <div class="overlay">"Logo nos primeiros minutos de sessão, veio o primeiro resultado.
+              Consegui ficar ereto e esticar totalmente o corpo."</div>
+          </div>
+        </div>
+        <!--flex-->
+      </div>
+      <!--interface-->
+    </section>
+    <!--portfolio-->
+
+    <section class="formulario">
+      <div class="interface">
+        <h2 class="titulo">FALE <span>COMIGO</span></h2>
+
+        <form action="">
+          <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+          <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+          <input type="text" name="" id="" placeholder="Seu celular:">
+          <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+          <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+        </form>
+      </div>
+      <!--interface-->
+    </section>
+    <!--formulario-->
+
+  </main>
+
+  <footer>
+    <div class="mapas" id="localizacao">
+      <div class="mapa1">
+        <p>Leblon</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.1277218101454!2d-43.219671824687325!3d-22.98233037920201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd5a91684ab33%3A0x9f420cbde1371081!2sCLINIQUE!5e0!3m2!1spt-BR!2sbr!4v1698359841649!5m2!1spt-BR!2sbr"
+          width="" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="mapa2">
+        <p>Clinica</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.520978631867!2d-43.17916962468888!3d-22.931032779238055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f6fb05a0125%3A0xcf01188174adf373!2sCl%C3%ADnica%20MedSculp!5e0!3m2!1spt-BR!2sbr!4v1698359936565!5m2!1spt-BR!2sbr"
+          width="" height="400" style=" border:0 ;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="interface">
+      <div class="line-footer">
+        <div class="flex">
+          <div class="logo-footer">
+            <!-- <img src="images/logo.png" alt="Logotipo Agência BRN"> -->
+          </div>
+          <!--logo-footer-->
+          <div class="btn-social">
+            <a href="https://www.instagram.com/gabriel_acupuntura/" target="_blank"><button><i
+                  class="bi bi-instagram"></i></button></a>
+            <a href="https://api.whatsapp.com/send?phone=5521993373279&text=Ol%C3%A1%2C+estava+no+seu+site+e+gostaria+de+ter+mais+informa%C3%A7%C3%B5es+sobre+o+servi%C3%A7o+de+acupuntura."
+              target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+            <!-- <a href="#"><button><i class="bi bi-linkedin"></i></button></a> -->
+          </div>
+          <!--btn-social-->
+        </div>
+      </div>
+      <!--line-footer-->
+
+
+      <div class="line-footer borda">
+        <p><i class="bi bi-envelope-fill"></i> <a href="mailto:Gwerneck01@gmail.com">Gwerneck01@gmail.com</a></p>
+      </div>
+      <!--line-footer-->
+    </div>
+    <!--interface-->
+  </footer>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js">    </script>
+  <script src="carrosel.js"></script>
+</body>
+
+</html>
